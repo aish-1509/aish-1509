@@ -1,214 +1,106 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Aishwarya+Anand;AI+%2F+ML+Engineer+%7C+Computer+Vision+%7C+GenAI;NTU+Computer+Science+%E2%80%94+AI+Specialisation;Building+production+AI+systems+from+research+to+deployment" alt="Typing SVG" />
+# Aishwarya Anand
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/aishwarya-anand-b963661b3)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aishwarya-portfolio-tau.vercel.app)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aish0021@e.ntu.edu.sg)
+**AI/ML engineer, computer-vision builder, and product-minded software leader**
+
+Computer Science at Nanyang Technological University, Singapore  
+Artificial Intelligence specialisation
+
+[Portfolio](https://aishwarya-portfolio-tau.vercel.app) |
+[LinkedIn](https://linkedin.com/in/aishwarya-anand-b963661b3) |
+[Email](mailto:aish0021@e.ntu.edu.sg)
 
 </div>
 
----
+## What I Build
 
-## 👩‍💻 About Me
+I work across the full path from an ambiguous problem to a tested system: framing the user need, designing the technical approach, implementing the model or product, evaluating it honestly, and communicating the result.
 
-Final-year **Computer Science (Honours with Distinction)** at **Nanyang Technological University, Singapore**, specialising in **Artificial Intelligence** — graduating June 2026. Nanyang Scholar · NTU-University Scholars Programme.
+My strongest work sits at the intersection of:
 
-I build end-to-end AI systems — from implementing Graph-Mamba and equivariant GNNs for molecular research, to multi-task computer vision pipelines, to production LLM evaluation frameworks and agentic workflows.
+- machine learning and deep learning;
+- computer vision and multimodal systems;
+- full-stack products with AI capabilities; and
+- product leadership, delivery planning, and technical communication.
 
-- 🔬 **Research:** A+ FYP · Hybrid Graph-Mamba for protein binding affinity · GEPBind paper at **ECCB 2026** (Geneva)
-- 🏭 **Industry:** Generative AI Engineer @ **Panasonic R&D** · DevOps Lead @ **MISUMI** · SWE @ **DXC** · CV Intern @ **Inspiraz**
-- 🏆 **Hackathons:** NGODonate Winner · TechFest Top 5 Nationwide · PSA Finalist · Dell InnovateFest Finalist
-- 📍 Singapore PR · Available June 2026
+## Selected Work
 
----
+| Project | What it demonstrates | Role and evidence |
+| --- | --- | --- |
+| [AAPred](https://github.com/aish-1509/AAPred) | ESM-2, 3D residue graphs, Graph-Mamba, cross-attention, grouped evaluation | Original NTU Final Year Project implementation; A+; strongest traceable grouped result: Pearson `0.507`, RMSE `1.824` |
+| [NexusNTU](https://github.com/aish-1509/NexusNTU-Student-Companion) | React, Node.js, MongoDB, Redis, Gemini, student-centred product design | Project Manager and Team Lead for a six-person end-to-end software project |
+| [Person Attribute Recognition](https://github.com/aish-1509/person-attribute-recognition-convnext) | ConvNeXt multi-task learning, identity-safe splits, imbalance handling, failure analysis | Independently built pipeline; held-out mean macro-F1 `0.8308` |
+| [Writing Quality Ensemble](https://github.com/aish-1509/writing-quality-ensemble) | Feature engineering over 8.4M keystroke events and multi-model ensembling | Five-person NTU project with scoped contribution; public leaderboard top `9.3%` |
+| [Vision Transformer from Scratch](https://github.com/aish-1509/visual-transformer-from-scratch) | Attention, patch embeddings, transformer blocks, ViT, CLIP-style contrastive loss | Independent educational implementation in PyTorch |
+| [Portfolio Website](https://github.com/aish-1509/Aishwarya-Portfolio) | Responsive design, GSAP animation, GitHub integration, deployment | Independently designed and built |
 
-## 🚀 Featured Projects
+## NexusNTU Leadership Case
 
-### 🧬 AAPred — Antibody-Antigen Binding Affinity Prediction
-> **NTU Final Year Project · A+ · GPA 5.00 · ECCB 2026 Peer-Reviewed Manuscript**
+NexusNTU is the clearest example of how I work beyond an isolated feature. I led the project from problem framing and requirements through planning, risk and quality governance, implementation coordination, testing, demonstration, and final delivery.
 
-Hybrid **Graph-Mamba** framework predicting ΔΔG (binding free energy change) between antibody-antigen protein complexes — enabling computational pre-screening of antibody drug candidates.
+- [Product repository](https://github.com/aish-1509/NexusNTU-Student-Companion)
+- [Leadership and product case study](https://github.com/aish-1509/NexusNTU-Student-Companion/blob/main/docs/PROJECT_CASE_STUDY.md)
+- [Project-management evidence](https://github.com/aish-1509/Adv-SWE-Project)
 
-| Component | Detail |
-|---|---|
-| Sequence encoder | ESM-2 (650M protein language model, Meta AI) |
-| Structure encoder | E(3)-equivariant GatedGCN — invariant to molecular rotation/translation |
-| Fusion layer | Mamba SSM cross-attention — O(n) vs O(n²) attention for long sequences |
-| Evaluation | GroupKFold by protein family — prevents identity leakage |
-| Result | **Pearson 0.507 vs 0.491 baseline** · 45+ ablations |
+## Technical Focus
 
-`PyTorch` `DGL` `ESM-2` `Mamba` `Python` `HPC`
+`Python` `PyTorch` `scikit-learn` `Pandas` `NumPy` `OpenCV`  
+`JavaScript` `React` `Node.js` `Express` `MongoDB` `Redis`  
+`Java` `SQL` `GitHub Actions` `Docker` `Hugging Face`
 
----
+## Repository Map
 
-### 👁️ Person Attribute Recognition (PAR) — Multi-Task Computer Vision
-> **Take-home assignment · Cynapse AI · Test macro-F1: 0.8216**
+Repositories are labelled by provenance so that original work, team contributions, and reference material are easy to distinguish.
 
-Multi-task deep learning pipeline predicting **6 pedestrian attributes simultaneously** from a single shared backbone — Age, Headgear, Gender, Glasses, Upper-body colour, Lower-body colour.
+### Original and Lead Work
 
-**Key engineering decisions:**
-- **Architecture:** ConvNeXt-Small backbone (50M params, ImageNet-pretrained via `timm`) + 6 independent linear classification heads — one model, not six
-- **Identity leakage prevention:** GroupShuffleSplit with 101-seed Monte Carlo search on Market-1501 re-ID naming convention (same person across multiple crops)
-- **469:1 class imbalance:** Tri-axis strategy — inverse-square-root class weights + **Focal Loss (γ=2)** + homoscedastic uncertainty weighting (Kendall et al. 2018 `log_var` parameters)
-- **Colour-safe augmentation:** Deliberately excluded hue/saturation shifts — UB/LB clothing colour are prediction targets
-- **Pedestrian aspect ratio:** 256×128 (not square) — preserves body proportions
-- **Training:** AdamW · ReduceLROnPlateau · mixed precision · early stopping (patience=5)
-- **Result:** Test mean macro-F1 **0.8216** on 7,021 held-out crops from ~70,000 pedestrian images
+| Repository | Scope |
+| --- | --- |
+| [AAPred](https://github.com/aish-1509/AAPred) | Final Year Project research implementation |
+| [NexusNTU-Student-Companion](https://github.com/aish-1509/NexusNTU-Student-Companion) | Independent portfolio edition of the team product I led |
+| [person-attribute-recognition-convnext](https://github.com/aish-1509/person-attribute-recognition-convnext) | Leakage-safe multi-task computer vision |
+| [Aishwarya-Portfolio](https://github.com/aish-1509/Aishwarya-Portfolio) | Personal portfolio website |
+| `visual-transformer-from-scratch` | Private PyTorch architecture study |
+| `SWE-CrossBorder-Final-Touches` | Private focused UI contribution archive |
 
-`PyTorch` `ConvNeXt` `timm` `Focal Loss` `Albumentations` `Python`
+### Academic Team Work
 
----
+| Repository | Scope |
+| --- | --- |
+| [writing-quality-ensemble](https://github.com/aish-1509/writing-quality-ensemble) | Keystroke-dynamics regression and ensemble modelling |
+| [SC1015_Project](https://github.com/aish-1509/SC1015_Project) | Wine-quality data extraction and visualisation contribution |
+| [SC2002-CAMS-OOP-Group-Assignment](https://github.com/aish-1509/SC2002-CAMS-OOP-Group-Assignment) | Java OOP camp-management system |
+| [SC2006-CROSS-BORDER](https://github.com/aish-1509/SC2006-CROSS-BORDER) | Full-stack software-engineering course archive |
+| `SC4000-Birdclef` | Private team reproduction and experimentation fork |
+| [NexusNTU](https://github.com/aish-1509/NexusNTU) | Historical fork retained for upstream and team history |
+| [Adv-SWE-Project](https://github.com/aish-1509/Adv-SWE-Project) | NexusNTU planning, risk, quality, and requirements evidence |
 
-### 🤖 Vision Transformer (ViT) + CLIP — From Scratch
-> **Architecture re-implementation in PyTorch · Zero pretrained weights**
+### Practice, Reference, and Preserved Forks
 
-Built to understand modern vision architectures from first principles:
+| Repository | Scope |
+| --- | --- |
+| [web-development-main-projects](https://github.com/aish-1509/web-development-main-projects) | 29-project frontend practice collection |
+| [NLP-Projects](https://github.com/aish-1509/NLP-Projects) | Attributed NLP learning mirror |
+| [Iris-Flower](https://github.com/aish-1509/Iris-Flower) | Attributed ML workflow notebook |
+| [optimal-road-trip](https://github.com/aish-1509/optimal-road-trip) | Attributed genetic-algorithm notebook |
+| [follower-factory](https://github.com/aish-1509/follower-factory) | Attributed social-data analysis notebook |
+| [mdp-cv](https://github.com/aish-1509/mdp-cv) and [mdp-rpi](https://github.com/aish-1509/mdp-rpi) | Preserved MDP subsystem forks |
+| [Grocery-Grabber_BrainHacks-Code-Exp](https://github.com/aish-1509/Grocery-Grabber_BrainHacks-Code-Exp) | Preserved hackathon-project fork |
+| [SC2207-Intro-To-Databases](https://github.com/aish-1509/SC2207-Intro-To-Databases) | Preserved database-course fork |
+| `InsertionSort_MergeSort_Hybrid` | Private algorithm reference fork |
+| [sentiment-analysis](https://github.com/aish-1509/sentiment-analysis) | Documented placeholder, no implementation claims |
+| [DEEPLEARNING.AI-SPECIALIZATION](https://github.com/aish-1509/DEEPLEARNING.AI-SPECIALIZATION) | Documented learning placeholder |
+| `SWE-Project-Final-Stages-Cross-Border` | Private empty historical placeholder |
 
-- **Scaled dot-product attention:** `Attention(Q,K,V) = softmax(QKᵀ/√d_k)·V` — written from scratch
-- **Multi-head attention:** H parallel heads · head splitting/merging · output projection
-- **Patch embedding:** Conv2d stride trick · learnable [CLS] token · positional embeddings
-- **ViT encoder blocks:** Pre-LayerNorm · GELU FFN · residual connections · 5.7M params
-- **CLIP contrastive loss:** InfoNCE · dual image+text encoder · symmetric loss · temperature scaling
-- All tests pass with verified shapes and forward passes
+## Activity and Attribution
 
-`PyTorch` `NumPy`
+GitHub's native contribution graph is the source of truth for account activity. Private contributions are enabled, while their repository details remain private. I intentionally omit third-party "total commit" cards because external card services cannot reliably read private repository activity and can display misleading totals.
 
----
-
-### 🐦 BirdCLEF Audio Classification — Kaggle ML Competition
-> **SC4000 NTU · Team competition · Acoustic species identification**
-
-ML pipeline for identifying bird species from audio recordings in the BirdCLEF Kaggle competition:
-
-- Audio preprocessing: STFT spectrograms · MFCC features · data augmentation (SpecAugment)
-- Classification models: CNN on mel-spectrograms · ensemble approaches
-- Handling long-tail distribution of species occurrences
-
-`Python` `Librosa` `PyTorch` `Scikit-learn` `Kaggle`
-
----
-
-### 🤖 MDP — Autonomous Robot Computer Vision
-> **NTU Multidisciplinary Design Project · Group 38**
-
-Computer vision and image recognition system for an autonomous robot navigation task:
-
-- Real-time object detection and classification from robot-mounted camera
-- Image processing pipeline: preprocessing → detection → classification → communication to robot controller
-- Integrated with Raspberry Pi control system and Arduino hardware
-
-`Python` `OpenCV` `PyTorch` `Raspberry Pi`
-
----
-
-### 🏠 HDB Resale Price Prediction — Tabular ML Ensemble
-> **End-to-end ML pipeline · Singapore public housing market**
-
-Ensemble of tree-based models + tabular transformer for HDB resale price prediction:
-
-- **Models:** LightGBM · XGBoost · CatBoost · **FT-Transformer** (captures non-linear feature interactions GBMs miss)
-- **Features:** MRT proximity · school proximity · floor area · remaining lease · storey · flat type
-- **Evaluation:** Time-based CV splits (prevents future data leakage) · RMSE · MAE · R²
-- **Ensemble:** Weighted average via stacking meta-learner
-
-`Python` `LightGBM` `XGBoost` `CatBoost` `PyTorch` `Pandas`
-
----
-
-### 💬 Sentiment Analysis & NLP Projects
-> **NLP pipeline collection**
-
-Collection of NLP experiments including sentiment classification, text preprocessing, and language modelling tasks.
-
-`Python` `NLTK` `Transformers` `scikit-learn`
-
----
-
-### 🌐 Portfolio Website
-> **[aishwarya-portfolio-tau.vercel.app](https://aishwarya-portfolio-tau.vercel.app)**
-
-Dynamic personal portfolio showcasing projects, experience, and skills. Built with modern web technologies, deployed on Vercel.
-
-`HTML` `CSS` `JavaScript`
-
----
-
-## 🛠️ Tech Stack
-
-**AI / ML / GenAI**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-
-**Backend / Cloud / DevOps**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-**Data / Analytics**
-
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-
----
-
-## 💼 Experience
-
-| Period | Role | Company |
-|---|---|---|
-| Dec 2025 – Jun 2026 | Generative AI Engineer Intern | Panasonic R&D Centre Singapore |
-| Sep – Dec 2025 | DevOps Engineer Intern & Team Lead | MISUMI Kaizen OU Group |
-| Jun – Sep 2025 | Full-Stack Engineering Intern | Earth Observatory of Singapore, NTU |
-| May – Sep 2025 | Software Engineering Intern | DXC Technology |
-| Dec 2024 – Feb 2025 | Deep Learning Engineer Intern | Inspiraz Technology |
-| May – Aug 2024 | Embedded Engineering Intern | Schaeffler Hub for Advanced Research |
-
----
-
-## 🏆 Awards & Recognition
-
-| Award | Competition |
-|---|---|
-| 🥇 Winner — Best Developer Tooling | NGODonate · EasyA × Ripple Hackathon |
-| 🎓 A+ FYP · GPA 5.00/5.00 | NTU · Nanyang Scholarship |
-| 📄 Peer-reviewed manuscript | ECCB 2026, Geneva |
-| 🏅 Top 5 Nationwide | TechFest Hackathon — AI deepfake detection |
-| 🏅 Top 10 National | Cactus × Google Global Hackathon |
-| 🏅 Finalist | PSA Code Sprint · Dell InnovateFest · DSTA BrainHack · Build for Good (OGP) |
-
----
-
-## 📈 GitHub Stats
+For future commits, this account uses GitHub's account-linked no-reply address so work is attributed consistently without exposing a personal email.
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=aish-1509&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aish-1509&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+**Build carefully. Evaluate honestly. Explain the trade-offs.**
 
-</div>
-
----
-
-<div align="center">
-<i>"Build it from scratch first. Then use the framework."</i>
 </div>
