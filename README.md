@@ -32,7 +32,7 @@ My strongest work sits at the intersection of:
 | [NexusNTU](https://github.com/aish-1509/NexusNTU-Student-Companion) | React, Node.js, MongoDB, Redis, Gemini, student-centred product design | Project Manager and Team Lead for a six-person end-to-end software project |
 | [Person Attribute Recognition](https://github.com/aish-1509/person-attribute-recognition-convnext) | ConvNeXt multi-task learning, identity-safe splits, imbalance handling, failure analysis | Independently built pipeline; held-out mean macro-F1 `0.8308` |
 | [Writing Quality Ensemble](https://github.com/aish-1509/writing-quality-ensemble) | Feature engineering over 8.4M keystroke events and multi-model ensembling | Five-person NTU project with scoped contribution; public leaderboard top `9.3%` |
-| [Vision Transformer from Scratch](https://github.com/aish-1509/visual-transformer-from-scratch) | Attention, patch embeddings, transformer blocks, ViT, CLIP-style contrastive loss | Independent educational implementation in PyTorch |
+| Vision Transformer from Scratch (private) | Attention, patch embeddings, transformer blocks, ViT, CLIP-style contrastive loss | Independent educational implementation in PyTorch |
 | [Portfolio Website](https://github.com/aish-1509/Aishwarya-Portfolio) | Responsive design, GSAP animation, GitHub integration, deployment | Independently designed and built |
 
 ## NexusNTU Leadership Case
